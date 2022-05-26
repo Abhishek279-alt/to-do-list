@@ -1,0 +1,98 @@
+body {
+  background: #addc80;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.inputContainer {
+  /* border: 2px solid blue; */
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+#to,
+#list {
+  color: rgb(49, 8, 102);
+}
+
+#do {
+  color: rgb(255, 136, 0);
+}
+
+#listInput {
+  margin: 1rem 1rem;
+  padding: 8px 5px;
+  width: 40%;
+  font-size: 1rem;
+  outline: none;
+  border: 2px solid rgb(255, 136, 0);
+  border-radius: 5px;
+  background-color: rgb(255, 235, 213);
+}
+
+#add {
+  margin: 1rem 1rem;
+  padding: 15px 20px;
+  font-size: 1rem;
+  outline: none;
+  border: 2px solid rgb(255, 136, 0);
+  border-radius: 5px;
+  background-color: rgb(255, 235, 213);
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+#add:hover {
+  background-color: rgb(254, 202, 148);
+}
+
+.listContainer {
+  /* border: 2px solid red; */
+}
+#itemList {
+  /* border: 2px solid green; */
+  list-style-type: decimal;
+  color: rgb(49, 8, 102);
+  font-style: italic;
+}
+
+#itemList > li {
+  border-bottom: 3px solid rgb(3, 87, 81);
+  margin: 12px auto;
+  width: 50%;
+  padding: 5px 10px;
+  font-size: 1.3rem;
+}
+
+.listItem {
+  cursor: pointer;
+}
+
+.operations {
+  display: flex;
+  justify-content: center;
+  margin: 10px auto;
+}
+
+#delete {
+  padding: 10px 15px;
+  font-size: 1rem;
+  outline: none;
+  border: 2px solid rgb(255, 55, 0);
+  border-radius: 5px;
+  background-color: rgb(253, 202, 190);
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+#delete:hover {
+  background-color: rgb(255, 169, 150);
+}
